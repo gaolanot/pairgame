@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-PairgameApplication<pairgame>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.poderosasqueinspiran.pairgame.PairgameApplication",
+            "projectName": "pairgame",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}

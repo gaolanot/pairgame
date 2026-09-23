@@ -1,0 +1,69 @@
+# ===== Maven =====
+HELP.md
+target/
+.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### Java ###
+*.class
+*.jar
+*.war
+*.ear
+hs_err_pid*
+replay_pid*
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+# Se sube launch.json (no contiene secretos, solo referencia a .env),
+# pero se ignoran otros archivos de configuración local del editor
+.vscode/settings.json
+.vscode/tasks.json
+.vscode/*.log
+.classpath
+.project
+.settings/
+bin/
+
+# ===== Spring Boot =====
+application-local.properties
+application-secrets.properties
+!application.properties.example
+
+# ===== Variables de entorno y secretos =====
+.env
+.env.local
+*.env
+!.env.example
+
+# ===== Sistema operativo =====
+.DS_Store
+Thumbs.db
+
+# ===== Logs =====
+*.log
+logs/
